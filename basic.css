@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    background-image: url(https://img.freepik.com/free-vector/diagonal-motion-lines-white-background_1017-33198.jpg?w=1060&t=st=1674383142~exp=1674383742~hmac=da7395f9d7dfe4a8270dfc615b42b25c71610c7c4fffc2e08f7d0955dc13e347);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    text-align: center;
+    font-family: "Times New Roman";
+    background-color: burlywood;
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 4px solid gray;
+    width: 55%;
+    margin: auto;
+    flex:auto;
+}
+.container{
+    max-width: 1000px;
+    padding: 20px 8px;
+    height: 280px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.container>img{
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    flex: 1 1 250px;
+}
